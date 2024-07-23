@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+.main_div{
+    width: 380px;
+    margin: auto;
+    padding: 11px;
+    background-color: rgb(1, 112, 112);
+    text-align: center;
+    margin-top: 44px;
+}
+.taskInput{
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+}
+.main_div input{
+    width: 250px;
+    padding: 9px;
+    border: none;
+    font-size: 22px;
+    border-radius: 10px;
+}
+.main_div button{
+    width: 70px;
+    height: 44px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-left: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.taskdata{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 14px;
+    gap: 13px;
+}
+.taskdata p{
+    font-size: 23px;
+    margin-left: 8px;
+    color: white;
+    gap: 25px;
+}
+.taskdata #deleteicon{
+position: relative;
+left: -9%;
+top: 28%;
+cursor: pointer;
+font-size: 21px;
+color: black;
+color: white;
+}
+.Removeall button{
+    width: 120px;
+    height: 44px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-left: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+}
